@@ -10,8 +10,9 @@
 package org.jdesktop.xpath.function;
 
 import java.util.List;
-import javax.xml.xpath.XPathFunction;
+
 import javax.xml.xpath.XPathFunctionException;
+
 import org.w3c.dom.NodeList;
 
 /**

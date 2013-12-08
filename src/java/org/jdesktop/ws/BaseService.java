@@ -11,8 +11,10 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.atomic.AtomicBoolean;
+
 import javax.swing.SwingUtilities;
 import javax.swing.event.EventListenerList;
+
 import org.jdesktop.beans.AbstractBean;
 import org.jdesktop.http.State;
 import org.jdesktop.ws.events.AbortEvent;

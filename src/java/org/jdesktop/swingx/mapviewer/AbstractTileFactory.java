@@ -21,8 +21,8 @@ import java.util.logging.Logger;
 
 import javax.swing.SwingUtilities;
 
-import org.jdesktop.swingx.graphics.GraphicsUtilities;
 import org.jdesktop.swingx.mapviewer.util.GeoUtil;
+import org.jdesktop.swingx.util.GraphicsUtilities;
 
 /**
  * The <code>AbstractTileFactory</code> provides a basic implementation for the TileFactory.

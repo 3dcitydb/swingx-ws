@@ -8,7 +8,6 @@
 	<classpathentry kind="lib" path="lib/build-only/emma_ant.jar"/>
 	<classpathentry kind="lib" path="lib/build-only/emma.jar"/>
 	<classpathentry kind="lib" path="lib/build-only/maven-repository-importer-1.2.jar"/>
-	<classpathentry kind="lib" path="lib/cobundle/swingx-beaninfo-1.6.jar"/>
 	<classpathentry kind="lib" path="lib/optional/commons-codec-1.3.jar"/>
 	<classpathentry kind="lib" path="lib/optional/commons-httpclient-3.0.1.jar"/>
 	<classpathentry kind="lib" path="lib/optional/commons-logging-1.1.jar"/>
@@ -17,7 +16,8 @@
 	<classpathentry kind="lib" path="lib/optional/jtidy-r7.jar"/>
 	<classpathentry kind="lib" path="lib/optional/rome-0.8.jar"/>
 	<classpathentry kind="lib" path="lib/optional/xercesImpl.jar"/>
-	<classpathentry kind="lib" path="lib/cobundle/swingx-1.6.jar"/>
 	<classpathentry kind="lib" path="lib/optional/junit-4.9.jar"/>
+	<classpathentry kind="lib" path="lib/cobundle/swingx-1.6.jar"/>
+	<classpathentry kind="lib" path="lib/cobundle/swingx-beaninfo-1.6.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

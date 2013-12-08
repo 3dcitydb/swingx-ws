@@ -16,6 +16,7 @@ import java.net.URISyntaxException;
 import java.net.URLEncoder;
 import java.util.ArrayList;
 import java.util.List;
+
 import javax.swing.AbstractButton;
 import javax.swing.JComboBox;
 import javax.swing.JComponent;
@@ -23,9 +24,10 @@ import javax.swing.JList;
 import javax.swing.JPanel;
 import javax.swing.JPasswordField;
 import javax.swing.text.JTextComponent;
-import org.jdesktop.http.async.AsyncHttpRequest;
+
 import org.jdesktop.html.form.Input;
 import org.jdesktop.http.Method;
+import org.jdesktop.http.async.AsyncHttpRequest;
 
 /**
  * This widget allows a Swing UI (or other Java code) to simulate and send an

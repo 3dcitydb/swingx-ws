@@ -12,6 +12,7 @@ package org.jdesktop.swingx.mapviewer.esri;
 import java.awt.geom.Point2D;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
+
 import org.jdesktop.swingx.mapviewer.DefaultTileFactory;
 import org.jdesktop.swingx.mapviewer.GeoPosition;
 import org.jdesktop.swingx.mapviewer.TileFactoryInfo;

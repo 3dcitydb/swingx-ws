@@ -7,11 +7,12 @@ package org.jdesktop.ws;
 
 import java.util.concurrent.CancellationException;
 import java.util.concurrent.ExecutionException;
+
+import javax.swing.SwingWorker;
+
 import org.jdesktop.http.Request;
 import org.jdesktop.http.Response;
 import org.jdesktop.http.Session;
-import javax.swing.SwingWorker;
-import static org.jdesktop.http.State.*;
 
 /**
  * An HTTP based REST web service.

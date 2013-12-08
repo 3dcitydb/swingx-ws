@@ -9,7 +9,8 @@
 
 package org.jdesktop.swingx.mapviewer.wms;
 
-import org.jdesktop.swingx.mapviewer.*;
+import org.jdesktop.swingx.mapviewer.DefaultTileFactory;
+import org.jdesktop.swingx.mapviewer.TileFactoryInfo;
 
 /**
  * A tile factory that uses a WMS service.

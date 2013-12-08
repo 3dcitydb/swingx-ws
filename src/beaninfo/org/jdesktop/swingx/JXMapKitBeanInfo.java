@@ -9,7 +9,8 @@
 
 package org.jdesktop.swingx;
 
-import org.jdesktop.swingx.editors.EnumPropertyEditor;
+import org.jdesktop.beans.BeanInfoSupport;
+import org.jdesktop.beans.editors.EnumPropertyEditor;
 
 /**
  *

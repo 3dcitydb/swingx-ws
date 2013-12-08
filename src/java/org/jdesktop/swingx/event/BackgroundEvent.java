@@ -22,6 +22,7 @@
 package org.jdesktop.swingx.event;
 
 import java.util.EventObject;
+
 import org.jdesktop.swingx.BackgroundWorker;
 
 /**

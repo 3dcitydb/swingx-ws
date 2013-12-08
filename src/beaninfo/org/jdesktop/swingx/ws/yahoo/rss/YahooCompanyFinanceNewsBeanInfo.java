@@ -22,7 +22,8 @@
 package org.jdesktop.swingx.ws.yahoo.rss;
 
 import java.beans.BeanDescriptor;
-import org.jdesktop.swingx.BeanInfoSupport;
+
+import org.jdesktop.beans.BeanInfoSupport;
 
 /**
  *

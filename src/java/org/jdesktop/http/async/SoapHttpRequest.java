@@ -9,8 +9,6 @@
 
 package org.jdesktop.http.async;
 
-import java.net.URL;
-import javax.xml.namespace.QName;
 //import javax.xml.soap.MessageFactory;
 //import javax.xml.soap.SOAPMessage;
 //import javax.xml.ws.Dispatch;

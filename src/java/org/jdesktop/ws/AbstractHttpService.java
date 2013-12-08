@@ -8,9 +8,11 @@ package org.jdesktop.ws;
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
 import java.util.concurrent.atomic.AtomicReference;
+
+import javax.swing.SwingWorker;
+
 import org.jdesktop.http.Session;
 import org.jdesktop.http.State;
-import javax.swing.SwingWorker;
 
 /**
  * An abstact implementation of an HTTP based service. This BaseService extension

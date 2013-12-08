@@ -23,6 +23,7 @@ package org.jdesktop.xpath;
 
 import java.io.StringWriter;
 import java.util.Properties;
+
 import javax.xml.transform.Transformer;
 import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.dom.DOMSource;
@@ -32,6 +33,7 @@ import javax.xml.xpath.XPathConstants;
 import javax.xml.xpath.XPathExpression;
 import javax.xml.xpath.XPathExpressionException;
 import javax.xml.xpath.XPathFactory;
+
 import org.jdesktop.dom.SimpleNodeList;
 import org.jdesktop.xpath.function.XPathFunctionResolverImpl;
 import org.w3c.dom.Document;

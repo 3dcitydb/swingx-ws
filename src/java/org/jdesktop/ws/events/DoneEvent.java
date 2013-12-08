@@ -6,6 +6,7 @@
 package org.jdesktop.ws.events;
 
 import java.util.EventObject;
+
 import org.jdesktop.ws.BaseService;
 
 /**

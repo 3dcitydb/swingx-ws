@@ -23,21 +23,19 @@ package org.jdesktop.http.async;
 
 import java.beans.PropertyChangeListener;
 import java.net.URL;
-import java.util.HashMap;
-import java.util.Map;
+
 import javax.swing.SwingUtilities;
-import javax.swing.event.EventListenerList;
+import javax.swing.SwingWorker;
+
+import org.jdesktop.beans.AbstractBean;
+import org.jdesktop.http.Header;
 import org.jdesktop.http.Method;
 import org.jdesktop.http.Parameter;
 import org.jdesktop.http.Request;
 import org.jdesktop.http.Response;
 import org.jdesktop.http.Session;
-import javax.swing.SwingWorker;
-import org.w3c.dom.Document;
-import org.jdesktop.beans.AbstractBean;
-import org.jdesktop.http.Header;
-import org.jdesktop.http.async.event.AsyncRequestListener;
 import org.jdesktop.xpath.XPathUtils;
+import org.w3c.dom.Document;
 
 //attributes?
 //character encoding?

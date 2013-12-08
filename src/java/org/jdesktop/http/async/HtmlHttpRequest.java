@@ -22,10 +22,11 @@ package org.jdesktop.http.async;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
+
 import javax.xml.parsers.DocumentBuilderFactory;
+
 import org.jdesktop.dom.SimpleDocument;
 import org.jdesktop.dom.SimpleDocumentBuilder;
-import org.jdesktop.http.async.AsyncHttpRequest.ReadyState;
 import org.w3c.tidy.Tidy;
 
 /**

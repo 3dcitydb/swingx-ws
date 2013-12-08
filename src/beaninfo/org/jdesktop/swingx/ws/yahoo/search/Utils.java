@@ -9,7 +9,7 @@
 
 package org.jdesktop.swingx.ws.yahoo.search;
 
-import org.jdesktop.swingx.EnumerationValue;
+import org.jdesktop.beans.EnumerationValue;
 
 /**
  *

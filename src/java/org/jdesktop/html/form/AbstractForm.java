@@ -24,10 +24,11 @@ package org.jdesktop.html.form;
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
+
 import org.jdesktop.beans.AbstractBean;
+import org.jdesktop.http.Parameter;
 import org.jdesktop.http.Response;
 import org.jdesktop.http.Session;
-import org.jdesktop.http.Parameter;
 
 /**
  * An abstract implementation of the Form interface.

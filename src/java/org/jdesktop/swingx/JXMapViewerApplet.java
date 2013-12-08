@@ -11,7 +11,9 @@ package org.jdesktop.swingx;
 
 import java.util.HashSet;
 import java.util.Set;
+
 import javax.swing.JApplet;
+
 import org.jdesktop.swingx.mapviewer.GeoPosition;
 import org.jdesktop.swingx.mapviewer.Waypoint;
 import org.jdesktop.swingx.mapviewer.WaypointPainter;

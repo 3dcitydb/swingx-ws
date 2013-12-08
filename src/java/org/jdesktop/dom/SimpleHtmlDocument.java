@@ -21,29 +21,15 @@
 
 package org.jdesktop.dom;
 
-import java.io.StringWriter;
 import java.lang.ref.SoftReference;
-import java.net.URL;
 import java.util.HashMap;
-import java.util.Iterator;
-import java.util.List;
 import java.util.Map;
-import javax.xml.XMLConstants;
-import javax.xml.namespace.NamespaceContext;
-import javax.xml.namespace.QName;
-import javax.xml.transform.TransformerFactory;
-import javax.xml.transform.dom.DOMSource;
-import javax.xml.transform.stream.StreamResult;
+
 import javax.xml.xpath.XPath;
-import javax.xml.xpath.XPathConstants;
 import javax.xml.xpath.XPathExpression;
 import javax.xml.xpath.XPathExpressionException;
-import javax.xml.xpath.XPathFactory;
-import javax.xml.xpath.XPathFunction;
-import javax.xml.xpath.XPathFunctionException;
-import javax.xml.xpath.XPathFunctionResolver;
+
 import org.jdesktop.xpath.XPathUtils;
-import org.jdesktop.xpath.function.XPathFunctionResolverImpl;
 import org.w3c.dom.Attr;
 import org.w3c.dom.CDATASection;
 import org.w3c.dom.Comment;
@@ -61,7 +47,6 @@ import org.w3c.dom.NodeList;
 import org.w3c.dom.ProcessingInstruction;
 import org.w3c.dom.Text;
 import org.w3c.dom.UserDataHandler;
-import org.w3c.dom.html.HTMLCollection;
 import org.w3c.dom.html.HTMLDocument;
 import org.w3c.dom.html.HTMLElement;
 

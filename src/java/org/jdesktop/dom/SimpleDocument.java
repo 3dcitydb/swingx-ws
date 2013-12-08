@@ -24,9 +24,11 @@ package org.jdesktop.dom;
 import java.lang.ref.SoftReference;
 import java.util.HashMap;
 import java.util.Map;
+
 import javax.xml.xpath.XPath;
 import javax.xml.xpath.XPathExpression;
 import javax.xml.xpath.XPathExpressionException;
+
 import org.jdesktop.xpath.XPathUtils;
 import org.w3c.dom.Attr;
 import org.w3c.dom.CDATASection;

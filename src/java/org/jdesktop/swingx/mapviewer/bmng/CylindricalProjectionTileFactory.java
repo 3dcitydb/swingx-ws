@@ -2,7 +2,9 @@ package org.jdesktop.swingx.mapviewer.bmng;
 
 import java.awt.Dimension;
 import java.awt.geom.Point2D;
-import org.jdesktop.swingx.mapviewer.*;
+
+import org.jdesktop.swingx.mapviewer.DefaultTileFactory;
+import org.jdesktop.swingx.mapviewer.GeoPosition;
 
 public class CylindricalProjectionTileFactory extends DefaultTileFactory {
 

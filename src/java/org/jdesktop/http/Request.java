@@ -26,10 +26,13 @@ import java.io.InputStream;
 import java.net.URLDecoder;
 import java.util.HashMap;
 import java.util.Map;
+
 import org.jdesktop.beans.AbstractBean;
+import org.jdesktop.dom.SimpleDocument;
 import org.jdesktop.http.Header.Element;
 import org.jdesktop.xpath.XPathUtils;
 import org.w3c.dom.Document;
+
 import sun.misc.BASE64Decoder;
 import sun.misc.BASE64Encoder;
 

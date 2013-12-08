@@ -23,17 +23,15 @@ package org.jdesktop.http.async;
 
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
-import java.io.ByteArrayInputStream;
-import java.net.URL;
-import javax.xml.parsers.DocumentBuilderFactory;
+
 import javax.xml.xpath.XPath;
 import javax.xml.xpath.XPathConstants;
 import javax.xml.xpath.XPathExpression;
 import javax.xml.xpath.XPathFactory;
-import org.jdesktop.http.Method;
+
 import org.jdesktop.dom.SimpleDocument;
 import org.jdesktop.dom.SimpleDocumentBuilder;
-import org.jdesktop.http.async.AsyncHttpRequest.ReadyState;
+import org.jdesktop.http.Method;
 import org.w3c.dom.Document;
 import org.w3c.dom.NodeList;
 

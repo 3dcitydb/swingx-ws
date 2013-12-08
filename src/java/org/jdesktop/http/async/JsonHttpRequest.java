@@ -23,12 +23,11 @@ package org.jdesktop.http.async;
 
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
-import java.net.URL;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
+
 import org.jdesktop.http.Method;
-import org.jdesktop.http.async.AsyncHttpRequest.ReadyState;
 import org.json.JSONArray;
 import org.json.JSONObject;
 

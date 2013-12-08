@@ -11,18 +11,19 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.CancellationException;
 import java.util.concurrent.ExecutionException;
+
+import javax.swing.SwingWorker;
 import javax.xml.soap.MessageFactory;
 import javax.xml.soap.MimeHeaders;
 import javax.xml.soap.SOAPMessage;
+
 import org.jdesktop.beans.AbstractBean;
 import org.jdesktop.dom.SimpleDocument;
 import org.jdesktop.dom.SimpleDocumentBuilder;
 import org.jdesktop.http.Header;
 import org.jdesktop.http.Request;
 import org.jdesktop.http.Response;
-import javax.swing.SwingWorker;
 import org.w3c.dom.Document;
-import static org.jdesktop.http.State.*;
 
 /**
  * <p>Represents a SOAP web service client. This client is useful for working with

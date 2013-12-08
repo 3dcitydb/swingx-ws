@@ -22,8 +22,8 @@
 package org.jdesktop.swingx.ws.yahoo.search.websearch;
 
 import java.beans.BeanDescriptor;
-import org.jdesktop.swingx.BeanInfoSupport;
-import org.jdesktop.swingx.EnumerationValue;
+
+import org.jdesktop.beans.BeanInfoSupport;
 import org.jdesktop.swingx.ws.yahoo.search.Utils;
 
 /**

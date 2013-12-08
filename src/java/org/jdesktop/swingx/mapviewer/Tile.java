@@ -12,11 +12,12 @@ package org.jdesktop.swingx.mapviewer;
 import java.awt.EventQueue;
 import java.awt.image.BufferedImage;
 import java.beans.PropertyChangeListener;
-import java.lang.ref.SoftReference;
 import java.lang.ref.WeakReference;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+
 import javax.swing.SwingUtilities;
+
 import org.jdesktop.beans.AbstractBean;
 
 /**
