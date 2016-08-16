@@ -24,6 +24,7 @@ package org.jdesktop.http;
 import java.io.ByteArrayInputStream;
 import java.io.InputStream;
 import java.net.URLDecoder;
+import java.util.Base64;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -32,9 +33,6 @@ import org.jdesktop.dom.SimpleDocument;
 import org.jdesktop.http.Header.Element;
 import org.jdesktop.xpath.XPathUtils;
 import org.w3c.dom.Document;
-
-import sun.misc.BASE64Decoder;
-import sun.misc.BASE64Encoder;
 
 /**
  * <p>Represents an http request. A <code>Request</code> is constructed and then
@@ -616,10 +614,10 @@ public class Request extends AbstractBean {
     }
 
     private static String base64Encode(String s) throws Exception {
-        return new String(new BASE64Encoder().encode(s.getBytes()));
+        return new String(Base64.getEncoder().encode(s.getBytes()));
     }
     
     private static String base64Decode(String s) throws Exception {
-        return new String(new BASE64Decoder().decodeBuffer(s));
+        return new String(Base64.getDecoder().decode(s));
     }
 }
