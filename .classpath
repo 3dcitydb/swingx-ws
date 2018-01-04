@@ -17,7 +17,7 @@
 	<classpathentry kind="lib" path="lib/optional/rome-0.8.jar"/>
 	<classpathentry kind="lib" path="lib/optional/xercesImpl.jar"/>
 	<classpathentry kind="lib" path="lib/optional/junit-4.9.jar"/>
-	<classpathentry kind="lib" path="lib/cobundle/swingx-1.6.jar"/>
-	<classpathentry kind="lib" path="lib/cobundle/swingx-beaninfo-1.6.jar"/>
+	<classpathentry kind="lib" path="lib/cobundle/swingx-all-1.6.5-1.jar"/>
+	<classpathentry kind="lib" path="lib/cobundle/swingx-beaninfo-1.6.5-1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
