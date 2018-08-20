@@ -18,9 +18,7 @@ repositories {
 }
 
 dependencies {
-    compile ('org.citydb:swingx-all:1.6.5-2') {
-        annotationProcessor 'org.kohsuke.metainf-services:metainf-services:1.3'
-    }
+    compile 'org.citydb:swingx-all:1.6.5-2'
     compile 'jdom:jdom:1.0'
     compile 'commons-httpclient:commons-httpclient:3.0.1'
     compile 'commons-logging:commons-logging:1.1'
@@ -33,6 +31,8 @@ dependencies {
     compile 'jtidy:jtidy:4aug2000r7-dev'
     compile 'rome:rome:0.8'
     compile 'org.json:json:20171018'
+    compileOnly 'org.kohsuke.metainf-services:metainf-services:1.3'
+    annotationProcessor 'org.kohsuke.metainf-services:metainf-services:1.3'
 }
 
 javadoc {
