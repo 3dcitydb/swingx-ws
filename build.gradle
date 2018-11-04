@@ -5,7 +5,7 @@ plugins {
 }
 
 group 'org.citydb'
-version '1.1.0'
+version '1.1.1'
 description 'Fork of the inactive swingx-ws library'
 
 sourceCompatibility = 1.8
@@ -18,7 +18,7 @@ repositories {
 }
 
 dependencies {
-    compile 'org.citydb:swingx-all:1.6.5-2'
+    compile 'org.citydb:swingx-all:1.6.6'
     compile 'jdom:jdom:1.0'
     compile 'commons-httpclient:commons-httpclient:3.0.1'
     compile 'commons-logging:commons-logging:1.1'
