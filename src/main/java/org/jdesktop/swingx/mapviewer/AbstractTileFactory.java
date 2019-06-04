@@ -6,6 +6,7 @@ import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.lang.ref.WeakReference;
+import java.net.HttpURLConnection;
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.net.URL;
@@ -359,7 +360,9 @@ public abstract class AbstractTileFactory extends TileFactory {
 		}
 
 		private byte[] cacheInputStream(URL url) throws IOException {
-			InputStream ins = url.openStream();
+			HttpURLConnection connection = (HttpURLConnection) url.openConnection();
+			connection.setRequestProperty("User-Agent", "swingx-ws/1.1 (https://www.3dcitydb.org/)");
+			InputStream ins = connection.getInputStream();
 			ByteArrayOutputStream bout = new ByteArrayOutputStream();
 			byte[] buf = new byte[256];
 			while(true) {
