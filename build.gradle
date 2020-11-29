@@ -22,7 +22,7 @@ repositories {
 }
 
 dependencies {
-    implementation 'org.citydb:swingx-all:1.6.7'
+    implementation 'org.citydb:swingx-all:1.6.8'
     implementation 'commons-httpclient:commons-httpclient:3.0.1'
     implementation 'commons-logging:commons-logging:1.1'
     implementation 'commons-codec:commons-codec:1.3'
