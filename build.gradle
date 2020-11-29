@@ -5,7 +5,7 @@ plugins {
 }
 
 group 'org.citydb'
-version '1.1.5'
+version '1.1.4'
 description 'Fork of the inactive swingx-ws library'
 
 java {
