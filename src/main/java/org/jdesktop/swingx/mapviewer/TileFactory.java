@@ -9,10 +9,12 @@
 
 package org.jdesktop.swingx.mapviewer;
 
-import java.awt.Dimension;
-import java.awt.geom.Point2D;
-
 import org.jdesktop.swingx.mapviewer.util.GeoUtil;
+
+import java.awt.*;
+import java.awt.geom.Point2D;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * A class that can produce tiles and convert coordinates to pixels
@@ -21,6 +23,7 @@ import org.jdesktop.swingx.mapviewer.util.GeoUtil;
 public abstract class TileFactory /*TODO extends AbstractBean*/ {
     
     private TileFactoryInfo info;
+    private Map<String, String> httpRequestProperties;
 
     /** 
      * Creates a new instance of TileFactory
@@ -104,5 +107,20 @@ public abstract class TileFactory /*TODO extends AbstractBean*/ {
      * @param tile The tile to load.
      */
     protected abstract void startLoading(Tile tile);
-    
+
+    public void addHttpRequestProperty(String key, String value) {
+        if (httpRequestProperties == null) {
+            httpRequestProperties = new HashMap<>();
+        }
+
+        httpRequestProperties.put(key, value);
+    }
+
+    public Map<String, String> getHttpRequestProperties() {
+        return httpRequestProperties;
+    }
+
+    public void setHttpRequestProperties(Map<String, String> httpRequestProperties) {
+        this.httpRequestProperties = httpRequestProperties;
+    }
 }

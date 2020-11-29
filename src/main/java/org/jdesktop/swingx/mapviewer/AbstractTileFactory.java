@@ -1,5 +1,9 @@
 package org.jdesktop.swingx.mapviewer;
 
+import org.jdesktop.swingx.mapviewer.util.GeoUtil;
+import org.jdesktop.swingx.util.GraphicsUtilities;
+
+import javax.swing.*;
 import java.awt.image.BufferedImage;
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
@@ -11,6 +15,7 @@ import java.net.URI;
 import java.net.URISyntaxException;
 import java.net.URL;
 import java.util.Comparator;
+import java.util.Map;
 import java.util.WeakHashMap;
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.ExecutorService;
@@ -19,11 +24,6 @@ import java.util.concurrent.PriorityBlockingQueue;
 import java.util.concurrent.ThreadFactory;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-
-import javax.swing.SwingUtilities;
-
-import org.jdesktop.swingx.mapviewer.util.GeoUtil;
-import org.jdesktop.swingx.util.GraphicsUtilities;
 
 /**
  * The <code>AbstractTileFactory</code> provides a basic implementation for the TileFactory.
@@ -361,7 +361,12 @@ public abstract class AbstractTileFactory extends TileFactory {
 
 		private byte[] cacheInputStream(URL url) throws IOException {
 			HttpURLConnection connection = (HttpURLConnection) url.openConnection();
-			connection.setRequestProperty("User-Agent", "swingx-ws/1.1 (https://www.3dcitydb.org/)");
+
+			Map<String, String> requestProperties = getHttpRequestProperties();
+			if (requestProperties != null) {
+				requestProperties.forEach(connection::setRequestProperty);
+			}
+
 			InputStream ins = connection.getInputStream();
 			ByteArrayOutputStream bout = new ByteArrayOutputStream();
 			byte[] buf = new byte[256];
