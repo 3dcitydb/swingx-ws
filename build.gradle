@@ -49,7 +49,7 @@ javadoc {
 jar {
     from(sourceSets.main.allSource) {
         include '**/*'
-        duplicatesStrategy DuplicatesStrategy.EXCLUDE
+        duplicatesStrategy = DuplicatesStrategy.EXCLUDE
     }
     manifest {
         attributes('Implementation-Title': project.name,
