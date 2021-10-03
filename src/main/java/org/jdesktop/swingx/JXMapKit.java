@@ -556,7 +556,7 @@ public class JXMapKit extends JXPanel {
             final int max = 19;
             TileFactoryInfo info = new TileFactoryInfo(1,max-2,max,
                     256, true, true, // tile size is 256 and x/y orientation is normal
-                    "http://tile.openstreetmap.org",//5/15/10.png",
+                    "https://tile.openstreetmap.org",//5/15/10.png",
                     "x","y","z") {
                 public String getTileUrl(int x, int y, int zoom) {
                     zoom = max-zoom;
