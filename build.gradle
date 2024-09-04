@@ -11,9 +11,6 @@ java {
     toolchain {
         languageVersion = JavaLanguageVersion.of(11)
     }
-    compileJava {
-        options.release = 8
-    }
     withJavadocJar()
     withSourcesJar()
 }
@@ -26,7 +23,7 @@ repositories {
 }
 
 dependencies {
-    implementation 'org.citydb:swingx-all:1.6.9'
+    implementation 'org.citydb:swingx-all:1.6.10'
     implementation 'commons-httpclient:commons-httpclient:3.1'
     implementation 'com.sun.xml.ws:jaxws-ri:2.3.7'
     implementation 'net.sf.json-lib:json-lib:0.9'
